@@ -1,0 +1,36 @@
+*{
+    box-sizing:border-box;
+}
+.header{
+    display:flex;
+    height:70px;
+    align-items:center;
+    background-color: blueviolet;
+    color:bisque;
+    padding:20px;
+}
+.header--image{
+    height:100%;
+    margin-right:10px;
+}
+.header--title{
+    margin-right: auto;
+}
+main{
+    padding:40px;
+}
+.form{
+    display:flex;
+    gap:20px;
+}
+.form--input{
+    border-radius: 7px;
+
+}
+.form--button{
+    border-radius:7px;
+    background-color: blueviolet;
+    cursor:pointer;
+    color:bisque
+}
+
